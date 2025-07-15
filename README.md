@@ -1,37 +1,44 @@
-# k.github.io
 <!doctype html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>薬の勉強記録スライド</title>
+  <title>20250715薬の勉強記録スライド - 無水カフェイン</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+  <style>
+    table {
+      font-size: 20px;
+      border-collapse: collapse;
+    }
+    td, th {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+    }
+    img.struct {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
+
       <section>
-        <h2>薬の勉強記録</h2>
-        <p>作成者：あなたの名前</p>
+        <h2>無水カフェイン（レスピア静注・経口液60mg）</h2>
+        <table>
+          <tr><th>項目</th><th>内容</th></tr>
+          <tr><td>適応</td><td>早産・低出生体重児における原発性無呼吸(未熟児無呼吸発作)</td></tr>
+          <tr><td>用法用量</td><td>初回：20mg/kg 30分かけて静注 → 維持：5-10mg/kg</td></tr>
+          <tr><td>副作用</td><td>壊死性腸炎、頻脈、高血圧、胃出血、腹部膨満</td></tr>
+          <tr><td>併用禁忌</td><td>特になし（ただし他の中枢興奮薬注意）</td></tr>
+          <tr><td>半減期</td><td>約130時間</td></tr>
+          <tr><td>最高血中濃度到達時間</td><td>経口後約30～120分</td></tr>
+          <tr><td>その他特徴</td><td>フィルター可</td></tr>
+        </table>
+        <img src="images/caffeine.png" alt="無水カフェインの化学構造式" class="struct">
       </section>
-      <section>
-        <h3>セフェム系抗菌薬まとめ</h3>
-        <ul>
-          <li>第1世代：セファゾリン（グラム陽性）</li>
-          <li>第3世代：セフトリアキソン（グラム陰性）</li>
-          <li>第4世代：セフェピム（緑膿菌もカバー）</li>
-        </ul>
-      </section>
-      <section>
-        <h3>バンコマイシン</h3>
-        <p>TDM目標トラフ：10–20 μg/mL</p>
-        <p>副作用：腎障害、レッドマン症候群</p>
-      </section>
-      <section>
-        <h3>症例：腎機能低下のある高齢者</h3>
-        <p>クレアチニン 2.5 mg/dL → 腎排泄性薬剤は注意</p>
-        <p>選択薬：セフトリアキソン（肝代謝）などが安全</p>
-      </section>
+
     </div>
   </div>
 
